@@ -23,7 +23,6 @@ public class Person {
     public static void printPersons(List<Person> persons) {
         for (Person person : persons) {
             System.out.println(persons.indexOf(person) + 1 + ". " + person.getName() + ", " + "lat " + person.getAge());
-            System.out.println();
         }
     }
 }

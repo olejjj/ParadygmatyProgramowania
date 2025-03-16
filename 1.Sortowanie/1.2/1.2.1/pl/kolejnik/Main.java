@@ -25,6 +25,7 @@ public class Main {
 
         System.out.println("Przed posortowaniem: ");
         Person.printPersons(persons);
+        System.out.println();
 
         Sort.sortBubble(persons);
 
